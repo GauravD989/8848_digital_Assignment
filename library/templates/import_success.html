@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Import Success</title>
+</head>
+<body>
+    <h1>Import Success</h1>
+    <p><b>{{ num_books_imported }} books</b> were successfully imported.</p>
+    
+    <b><p>You can see this {{ num_books_imported }} books in <a href="/books/">List of Books</a></p><b>
+    <a href="{% url 'import_books' %}">Import More Books</a>
+</body>
+</html>
